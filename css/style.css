@@ -41,7 +41,7 @@ use the fonts in other ways in the font hierarchy etc. */
 
 html {
     font-size: 100%;
-    font-family: var(--primary-font);
+    font-family: 'Euphemia UCAS';
 }
 
 img {
@@ -60,6 +60,7 @@ footer {
 header {
     background: url("../img/chips-3737973_1280.jpg");
     background-position: center;
+    background-size: cover;
 }
 
 .full-width {
@@ -74,6 +75,7 @@ header {
     padding-right: 0.75em;
     font-weight: bold;
     color: white;
+    font-family: 'Euphemia UCAS';
 }
 
 .header-wrapper h2 {
@@ -103,8 +105,9 @@ section {
 .section-heading {
     font-style: italic;
     font-size: 1.3rem;
-    color: #777;
+    color: #605344;
     margin: 0.5rem 0;
+    font-family: 'Kaushan Script', cursive;
 }
 
 ul {
@@ -181,8 +184,9 @@ background-color: #E6D7B4;
 }
 
 .texture-swatch-3 {
-    background: url(../img/potato-chips-448737_1280.jpg) top left repeat;
+    background: url(../img/crispees_chipsbag.png) top left repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .images ul {
@@ -197,19 +201,20 @@ background-color: #E6D7B4;
 }
 
 button {
-    padding: 1rem;
-    border-radius: 4px;
+    padding: 0.7rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     background: #605344;
     text-align: center;
     text-decoration: none;
-    font: bold 1.25em/1 var(--primary-font);
+    font: 1rem/1 var(--primary-font);
     letter-spacing: 1px;
     color: white;
     text-transform: uppercase;
     /*text-shadow: 0px -1px 0px #0374a0;*/
-    transition: all 0.2s ease;
-    cursor: pointer;
+    /*    cursor: pointer;*/
     margin: 0 1rem 1rem 0;
+    font-family: 'Euphemia UCAS';
 }
 
 .secondary-button {
@@ -287,8 +292,11 @@ p[class*="font-details-"] {
 }
 
 .adjectives ul {
-    font-size: 2rem;
+    font-size: 1rem;
     opacity: 0.5;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    color: #605344;
 }
 
 .adjectives ul {
@@ -304,6 +312,7 @@ footer {
 
 font {
     font-family: 'Kaushan Script', cursive;
+    font-size: 4.5rem;
 
 }
 
@@ -330,4 +339,5 @@ font {
     .adjectives ul {
         flex-direction: row;
     }
+
 }
