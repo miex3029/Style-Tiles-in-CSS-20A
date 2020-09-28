@@ -58,8 +58,12 @@ footer {
 }
 
 .full-width {
+<<<<<<< HEAD
     background: url("../img/chips-3737973_1280.jpg");
     background-position: center;
+=======
+    background: var(--bg-color);
+>>>>>>> origin/master
     color: white;
     width: 100%;
 }
@@ -120,6 +124,7 @@ ul li:last-child {
 }
 
 .color-swatch-1 {
+<<<<<<< HEAD
     background-color: var(--bg-color);
 }
 
@@ -138,6 +143,26 @@ ul li:last-child {
 .color-swatch-5 {
     background-color: var(--color-5);
 }
+=======
+    background-color: #E6D7B4;
+}
+
+.color-swatch-2 {
+    background-color: #F7F6F2;
+}
+
+.color-swatch-3 {
+    background-color: #FFFFFF;
+}
+
+.color-swatch-4 {
+    background-color: #605344;
+}
+
+/*.color-swatch-5 {
+    background-color: var(--color-5);
+}*/
+>>>>>>> origin/master
 
 .textures li {
     height: 30vw;
