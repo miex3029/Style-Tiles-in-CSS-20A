@@ -168,7 +168,7 @@ background-color: #E6D7B4;
 }
 
 .texture-swatch-2 {
-    background: url(../img/rodrigo-dos-reis-h3AkzboxK4Q-unsplash.jpg) top left repeat;
+    background: url(../img/kelsey-chance-tAH2cA_BL5g-unsplash.jpg) top left repeat;
     background-size: cover;
 }
 
@@ -196,21 +196,23 @@ background-color: #E6D7B4;
 button {
     padding: 1rem;
     border-radius: 4px;
-    background: var(--link-color);
+    background: #605344;
     text-align: center;
     text-decoration: none;
     font: bold 1.25em/1 var(--primary-font);
     letter-spacing: 1px;
     color: white;
     text-transform: uppercase;
-    text-shadow: 0px -1px 0px #0374a0;
+    /*text-shadow: 0px -1px 0px #0374a0;*/
     transition: all 0.2s ease;
     cursor: pointer;
     margin: 0 1rem 1rem 0;
 }
 
 .secondary-button {
-    background: var(--color-5);
+    background: white;
+    color: black;
+
 }
 
 button:focus,
@@ -220,14 +222,14 @@ button:focus-within {
     border-radius: 4px;
 }
 
-button:hover {
+/*button:hover {
     background-color: var(--link-hover-color);
     transform: scale(3) rotate(40deg);
 }
 
 button:active {
     background-color: var(--bg-color);
-}
+}*/
 
 .typography-main {
     color: var(--main-text-color);
