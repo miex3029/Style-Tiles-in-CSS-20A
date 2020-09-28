@@ -202,8 +202,8 @@ background-color: #E6D7B4;
 
 button {
     padding: 0.7rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
     background: #605344;
     text-align: center;
     text-decoration: none;
@@ -245,18 +245,18 @@ button:active {
 
 .h1-sample {
     font-size: 2.4rem;
-    font-weight: bold;
+    /*    font-weight: bold;*/
 }
 
 .h2-sample {
-    font-family: var(--secondary-font);
+    font-family: 'Euphemia UCAS';
     font-style: italic;
     font-size: 1.25rem;
 }
 
 p.typography-sample {
-    font-family: var(--secondary-font);
-    line-height: 1.5;
+    font-family: 'Raleway'
+        line-height: 1.5;
     max-width: 960px;
 }
 
@@ -269,19 +269,21 @@ em {
 }
 
 a {
-    font-family: var(--primary-font);
-    color: var(--link-color);
+    font-family: 'Raleway'
+        color: brown;
     font-weight: bold;
     text-decoration: none;
-    transition: all 0.2s;
+    /*    transition: all 0.2s;*/
 }
 
+/*
 a:hover {
     color: var(--link-hover-color);
     font-size: 4rem;
     background-color: var(--color-4);
     opacity: 0.1;
 }
+*/
 
 p[class*="font-details-"] {
     margin-top: 0.5rem;
