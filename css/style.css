@@ -123,11 +123,11 @@ ul li:last-child {
 }
 
 .color-swatch-1 {
-    background-color: var(--bg-color);
+    background-color: #E6D7B4;
 }
 
 .color-swatch-2 {
-    background-color: var(--link-color);
+    background-color: #F7F6F2;
 }
 
 .color-swatch-3 {
@@ -138,9 +138,9 @@ ul li:last-child {
     background-color: var(--color-4);
 }
 
-.color-swatch-5 {
+/*.color-swatch-5 {
     background-color: var(--color-5);
-}
+}*/
 
 background-color: #E6D7B4;
 }
@@ -167,19 +167,22 @@ background-color: #E6D7B4;
 }
 
 .texture-swatch-1 {
-    background: url(../img/pw_maze_white.png) top left repeat;
+    background: url(../img/chips-3737973_1280.jpg) top left repeat;
 }
 
 .texture-swatch-2 {
-    background: url(../img/subtle_grunge.png) top left repeat;
+    background: url(../img/kelsey-chance-tAH2cA_BL5g-unsplash.jpg) top left repeat;
+    background-size: cover;
 }
 
 .texture-swatch-1 {
-    background: url(../img/pw_maze_white.png) top left repeat;
+    background: url(../img/photo-1562880101-5a26d97ec128.jpeg) top left repeat;
+    background-size: cover;
 }
 
 .texture-swatch-3 {
-    background: url(../img/white_paperboard.png) top left repeat;
+    background: url(../img/potato-chips-448737_1280.jpg) top left repeat;
+    background-size: cover;
 }
 
 .images ul {
@@ -196,21 +199,23 @@ background-color: #E6D7B4;
 button {
     padding: 1rem;
     border-radius: 4px;
-    background: var(--link-color);
+    background: #605344;
     text-align: center;
     text-decoration: none;
     font: bold 1.25em/1 var(--primary-font);
     letter-spacing: 1px;
     color: white;
     text-transform: uppercase;
-    text-shadow: 0px -1px 0px #0374a0;
+    /*text-shadow: 0px -1px 0px #0374a0;*/
     transition: all 0.2s ease;
     cursor: pointer;
     margin: 0 1rem 1rem 0;
 }
 
 .secondary-button {
-    background: var(--color-5);
+    background: white;
+    color: black;
+
 }
 
 button:focus,
@@ -220,14 +225,14 @@ button:focus-within {
     border-radius: 4px;
 }
 
-button:hover {
+/*button:hover {
     background-color: var(--link-hover-color);
     transform: scale(3) rotate(40deg);
 }
 
 button:active {
     background-color: var(--bg-color);
-}
+}*/
 
 .typography-main {
     color: var(--main-text-color);
