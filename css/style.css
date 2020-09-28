@@ -120,11 +120,11 @@ ul li:last-child {
 }
 
 .color-swatch-1 {
-    background-color: var(--bg-color);
+    background-color: #E6D7B4;
 }
 
 .color-swatch-2 {
-    background-color: var(--link-color);
+    background-color: #F7F6F2;
 }
 
 .color-swatch-3 {
@@ -135,9 +135,9 @@ ul li:last-child {
     background-color: var(--color-4);
 }
 
-.color-swatch-5 {
+/*.color-swatch-5 {
     background-color: var(--color-5);
-}
+}*/
 
 background-color: #E6D7B4;
 }
@@ -164,19 +164,22 @@ background-color: #E6D7B4;
 }
 
 .texture-swatch-1 {
-    background: url(../img/pw_maze_white.png) top left repeat;
+    background: url(../img/chips-3737973_1280.jpg) top left repeat;
 }
 
 .texture-swatch-2 {
-    background: url(../img/subtle_grunge.png) top left repeat;
+    background: url(../img/rodrigo-dos-reis-h3AkzboxK4Q-unsplash.jpg) top left repeat;
+    background-size: cover;
 }
 
 .texture-swatch-1 {
-    background: url(../img/pw_maze_white.png) top left repeat;
+    background: url(../img/photo-1562880101-5a26d97ec128.jpeg) top left repeat;
+    background-size: cover;
 }
 
 .texture-swatch-3 {
-    background: url(../img/white_paperboard.png) top left repeat;
+    background: url(../img/potato-chips-448737_1280.jpg) top left repeat;
+    background-size: cover;
 }
 
 .images ul {
