@@ -57,16 +57,19 @@ footer {
     padding: calc(2 * var(--white-space));
 }
 
-.full-width {
+header {
     background: url("../img/chips-3737973_1280.jpg");
     background-position: center;
+}
+
+.full-width {
     color: white;
     width: 100%;
 }
 
 .header-wrapper h1 {
     font-size: 3rem;
-    text-transform: uppercase;
+    /*    text-transform: uppercase;*/
     letter-spacing: -2px;
     padding-right: 0.75em;
     font-weight: bold;
@@ -289,7 +292,16 @@ p[class*="font-details-"] {
 
 footer {
     font-style: italic;
+    color: #C7BA81;
+    font-family: 'Raleway', sans-serif;
+
 }
+
+font {
+    font-family: 'Kaushan Script', cursive;
+
+}
+
 
 @media (min-width: 800px) {
     main {
