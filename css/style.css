@@ -120,7 +120,7 @@ ul li:last-child {
 }
 
 .color-swatch-1 {
-    <<<<<<< HEAD background-color: var(--bg-color);
+    background-color: var(--bg-color);
 }
 
 .color-swatch-2 {
@@ -139,7 +139,7 @@ ul li:last-child {
     background-color: var(--color-5);
 }
 
-=======background-color: #E6D7B4;
+background-color: #E6D7B4;
 }
 
 .color-swatch-2 {
@@ -157,7 +157,7 @@ ul li:last-child {
 /*.color-swatch-5 {
     background-color: var(--color-5);
 }*/
-> > > > > > > origin/master .textures li {
+.textures li {
     height: 30vw;
     width: 40%;
     margin-right: 5vw;
